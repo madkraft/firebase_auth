@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Firebase Auth</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <h1>Login</h1>
+    <div class="container">
+        <input type="email" id="txtEmail" placeholder="Email">
+        <input type="password" id="txtPassword" placeholder="Password">
+
+        <div class="controls">
+            <button id="btnLogin">Log in</button>
+            <button id="btnSignUp">Sign up</button>
+            <button id="btnLogout" class="hide">Log out</button>
+        </div>
+    </div>
+
+
+    <!-- <ul>
+        <li>
+            <a href="#0" id="btnLogin">Login Anonymously</a>
+        </li>
+        <li>
+            <a href="#0" id="btnLogout" class="hide">Logout</a>
+        </li>
+    </ul> -->
+
+    <script src="node_modules/firebase/firebase.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
